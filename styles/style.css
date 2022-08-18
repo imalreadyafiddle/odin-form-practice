@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* outline: solid 1px black; */
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #DCB9E3;
+    height:100%;
+}
+
+button {
+    font-size: 1.5rem;
+    border-radius: 50px;
+    margin: 2vh 0 2vh 2vh;
+    padding: 2vh 5vw;;
+    background-color: #DCB9E3;
+    border: solid #663AC4 2px;
+    transition-duration: 500ms;
+}
+
+button:hover{
+    background-color: #663AC4;
+    color: #DCB9E3;;
+    transition-duration: 250ms;
+}
+
+button:active{
+    color: #663AC4;
+    background-color: #DCB9E3;
+    transition-duration: 250ms;
+}
+
+.hero-text {
+    color: #201327;
+    background-color: #DCB9E3;
+    font-size: 2rem;
+    font-weight: 600; 
+    text-align: justify;
+}
+
+p {
+    margin-left: 2vh;
+    margin-right: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+form {
+    display: flex;
+    color: #201327;
+    background-color: #D0B0E3;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.form-body {
+    box-shadow: 5px 5px 10px 1px #000;
+    position: relative;
+    z-index: 1;
+}
+
+.form-footer {
+    color: #201327;
+    background-color: #DCB9E3;
+    display: flex;
+    padding-top: 1vh;
+    position: relative;
+    z-index: 0;
+}
+
+.form-container {
+    background-color: #DCB9E3;
+    height: 100vh;
+}
+
+label {
+    color: #201327;
+}
+
+fieldgroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background-image: url("../images/backgroundimage.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    margin-top: 30vh;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.logo-text {
+    font-family: "Norse-Bold", sans-serif;
+    font-size: 10vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: vh;
+}
+
+img {
+    width: 10vh;
+    margin-top: -5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("../fonts/Norse-Bold.otf") format("opentype");
+    }
+
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    }

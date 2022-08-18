@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body class="preload">
+    <div class="sidebar">
+    <div class="logo-holder"><img src="./images/odin-lined.png" alt="Odin Project Logo"><div class = "logo-text">ODIN</div></div>
+    </div>
+    <div class="form-container">
+        <form action="submit" class="form-body">
+        <div class="hero-text">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br><br>Sign up<em> now</em> to get started.</em><br><br><br>You <em>know </em> want to.</em></p>
+        </div>
+        <legend>Let's do this!</legend>
+        <div class="form-body">
+            <fieldgroup class="name">
+                <div class="input">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Thor">
+                </div>
+                <div class="input">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Odinson">
+                </div>
+            </fieldgroup>
+            <fieldgroup class="contact-info">
+                <div class="input">
+                    <label for="email-address">EMAIL</label>
+                    <input type="email" id="email-address" name="email-address" placeholder="ThorOdinson@TOP.com">
+                </div>
+                <div class="input">
+                    <label for="phone-number">PHONE</label>
+                    <input type="text" id="phone-number" name="phone-number" placeholder="(800) 555-1234">
+                </div>
+            </fieldgroup>
+            <fieldgroup class="password">
+                <div class="input">
+                    <label for="enter-password">PASSWORD</label>
+                    <input type="password" id="enter-password" name="enter-password" placeholder="Enter Password">
+                </div>
+                <div class="input">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
+                </div>
+            </fieldgroup>
+            <button type="button" id="submit-button">SUBMIT</button>  
+        </div>
+    </form>
+    <div class="form-footer">
+        HERE IS WHERE I CAN CONTINUE TO
+        BE A DUMBASS
+        AND ADD EXTRA 
+        <div class="login-link"><a href=""></a></div>
+    </div>
+    </div>
+    <script>
+        let body = document.querySelector("body")
+        addEventListener('DOMContentLoaded', (event) => {
+            body.classList.remove('preload')
+        });
+    </script>
+</body>
+</html>
